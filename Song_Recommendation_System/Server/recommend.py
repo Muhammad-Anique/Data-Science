@@ -54,7 +54,7 @@ def get_rating(song_name, ratings_df):
 
 
 def calculate_cosine_similarity(user_history_df, song_pool_df):    
-    # Extracting values from DataFrames
+    # Extracting values from different DataFrames
     user_history_values = user_history_df.values
     song_pool_values = song_pool_df.values
     
