@@ -13,4 +13,4 @@ output_file = './song_names.txt'
 name_column = songs_scaled['name']
 
 # Save the 'name' column to another file
-name_column.to_csv(output_file, header=False, index=False)  # Change to .to_csv(output_file, header=True, index=False) if you want to include headers
+name_column.to_csv(output_file, header=False, index=False)  #Change to .to_csv(output_file, header=True, index=False) if you want to include headers
